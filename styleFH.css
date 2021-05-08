@@ -3,7 +3,7 @@
 	
 }
 .WholePage{
-	background-color: rgba(255, 255, 214, 0.5);
+	background-color: rgba(255, 255, 214, 0.3);
 }
 .nav{	
 	background-color: pink;
@@ -22,8 +22,10 @@
 	float: left;
 }
 .nav .menu_bar{
-	width: 50%;	
+	width: 40%;	
 	padding: 50px;
+	padding-right: 0px;
+	float: right;
 	display: flex;
 }
 .menu_bar a{
@@ -41,6 +43,10 @@
 	opacity: 1;
 	font-weight: bold;
 }
+.cards{
+	display: flex;
+	margin-top: 150px;
+}
 .AboutUs{
 	height: 828px;
 	width: 900px;
@@ -48,13 +54,26 @@
 	background-size: cover;
 	background-position: center;
 	border-radius: 25px;
-	margin-top: 150px;
-	margin-left: 250px;
+	
+	margin-left: 10px;
 	padding: 40px;
 	box-shadow: 4px 4px 8px pink;
 
 }
-/*.hope{
-	overflow: hidden;
-	opacity: 0.9;
-}*/
+.AboutUs h1{
+	font-family: verdana;
+}
+.headlines{
+	width: 35%;
+	height: 828px;
+	margin-left: 10px;
+	padding: 30px;
+	background-color: rgb(211, 255, 209);
+}
+.headlines h2{
+	font-family: verdana;
+	
+  background: -webkit-linear-gradient(#f797e4, #ff5cde);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
