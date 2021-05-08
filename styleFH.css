@@ -2,6 +2,9 @@
 	box-sizing: border-box;
 	
 }
+.WholePage{
+	background-color: rgba(255, 255, 214, 0.5);
+}
 .nav{	
 	background-color: pink;
 	z-index: 2;
@@ -49,6 +52,7 @@
 	margin-left: 250px;
 	padding: 40px;
 	box-shadow: 4px 4px 8px pink;
+
 }
 /*.hope{
 	overflow: hidden;
